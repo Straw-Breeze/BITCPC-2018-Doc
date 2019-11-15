@@ -1,0 +1,88 @@
+\documentclass[11pt,a4paper]{ctexart}
+\usepackage{olymp}
+\usepackage{amsmath,amssymb,graphicx,epigraph,enumitem}
+\usepackage{subcaption}
+\usepackage{listings}
+\usepackage{ctex}
+\usepackage{fancyhdr}
+\usepackage{indentfirst}
+\usepackage{minted}
+% \usepackage{array}
+\newcommand{\PreserveBackslash}[1]{\let\temp=\\#1\let\\=\temp}
+% \newcolumntype{C}[1]{>{\PreserveBackslash\centering}p{#1}}
+% \newcolumntype{R}[1]{>{\PreserveBackslash\raggedleft}p{#1}}
+% \newcolumntype{L}[1]{>{\PreserveBackslash\raggedright}p{#1}}
+\setlength{\parindent}{2em}
+
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{\sffamily\normalsize 2019/04/13}
+\lhead{\sffamily \normalsize 北京理工大学第十四届“连山科技”程序设计大赛
+\\ The 14-th BIT Campus Programming Contest Sponsored by LSSEC}
+\renewcommand{\headrulewidth}{1pt}
+\renewcommand{\footrulewidth}{1pt}
+\setlength{\headsep}{15pt}
+\cfoot{\sffamily \normalsize Page \thepage \ of \pageref{LastPage}}
+
+\author{}
+\title{
+\textbf{\huge 北京理工大学第十四届“连山科技”程序设计大赛} \\ 
+    \textbf{The 14-th BIT Campus Programming Contest} \\
+    \small \quad\\
+    \normalsize Sponsored by \\
+    \includegraphics[width=4cm]{lssec.png}
+    \small \quad\\
+    \small \quad\\
+    \small \quad\\
+    \huge 热身赛 \\ 
+    \huge Practice Round \\ 
+    \small \quad\\ 
+    \includegraphics[width=4cm]{campus.png}
+    \small \quad\\ 
+    \small \quad\\
+    \small \quad\\ 
+    \LARGE 题目列表 \\ 
+    \LARGE Problem List \\ 
+    \small \quad\\
+    \Large \begin{tabular}{|c|c|} %l(left)居左显示 r(right)居右显示 c居中显示
+    \hline 
+    A & 谁是冠军 \\
+    B & \ \ a $\times $ b Problem\ \ \  \\
+    C & 填色 \\
+    D & 最小值 \\
+    \hline 
+    \end{tabular} \\ 
+    \small \quad\\
+    \small \quad\\
+    \small \quad\\
+    \small \quad\\
+    \small \quad\\
+    \Large \textbf{举办单位：}计算机学院、ACM俱乐部 \\ 
+    \Large Hosted by BITCS \& ACM Club \\
+    \small \quad\\ 
+    \Large 2019年4月13日
+}
+\date{}
+
+\lstset{breaklines=true, frame=none, extendedchars=false, basicstyle=\ttfamily, showstringspaces=false}
+\setlength{\parindent}{2em}
+\setlength{\parskip}{2.0ex}
+\linespread{1.15}
+\newcommand*{\mat}[1]{\boldsymbol{\mathrm{#1}}}
+\renewcommand*{\vec}[1]{\boldsymbol{\mathrm{#1}}}
+\usepackage{tikz,flowchart}
+\usetikzlibrary{shapes,shapes.geometric,arrows,automata,positioning}
+
+\begin{document}
+\maketitle
+\setcounter{page}{0}
+\thispagestyle{empty}
+\newpage
+% \input Official/blank.tex
+% \newpage
+\input Practice/A.tex
+\input Practice/B.tex
+\input Practice/C.tex
+\input Practice/D.tex
+
+\end{document}

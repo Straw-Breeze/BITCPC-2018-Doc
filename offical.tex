@@ -1,0 +1,98 @@
+\documentclass[11pt,a4paper]{ctexart}
+\usepackage{olymp}
+\usepackage{amsmath,amssymb,graphicx,epigraph,enumitem}
+\usepackage{subcaption}
+\usepackage{listings}
+\usepackage{ctex}
+\usepackage{fancyhdr}
+\usepackage{indentfirst}
+\usepackage{minted}
+% \usepackage{array}
+\newcommand{\PreserveBackslash}[1]{\let\temp=\\#1\let\\=\temp}
+% \newcolumntype{C}[1]{>{\PreserveBackslash\centering}p{#1}}
+% \newcolumntype{R}[1]{>{\PreserveBackslash\raggedleft}p{#1}}
+% \newcolumntype{L}[1]{>{\PreserveBackslash\raggedright}p{#1}}
+\setlength{\parindent}{2em}
+
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{\sffamily\normalsize 2019/04/14}
+\lhead{\sffamily \normalsize 北京理工大学第十四届“连山科技”程序设计大赛
+\\ The 14-th BIT Campus Programming Contest Sponsored by LSSEC}
+\renewcommand{\headrulewidth}{1pt}
+\renewcommand{\footrulewidth}{1pt}
+\setlength{\headsep}{15pt}
+\cfoot{\sffamily \normalsize Page \thepage \ of \pageref{LastPage}}
+
+\author{}
+\title{
+\textbf{\huge 北京理工大学第十四届“连山科技”程序设计大赛} \\ 
+    \textbf{The 14-th BIT Campus Programming Contest} \\
+    \small \quad\\
+    \normalsize Sponsored by \\
+    \includegraphics[width=4cm]{lssec.png}
+    \small \quad\\
+    \huge 现场赛 \\ 
+    \huge Onsite Round \\ 
+    \small \quad\\ 
+    \includegraphics[width=4cm]{campus.png}
+    \small \quad\\ 
+    \Large 题目列表 \\ 
+    \Large Problem List \\ 
+    \small \quad\\
+    \normalsize \begin{tabular}{|c|c|c|} %l(left)居左显示 r(right)居右显示 c居中显示
+    \hline 
+    A & 两只脑斧 & 淡蓝 \\
+    B & 炼金术 & 白色 \\
+    C & 赛尔逵传说 & 绿色 \\
+    D & 碟中谍 & 橘色 \\
+    E & \ \ \ 只有一端开口的瓶子\ \ \  & 红色 \\
+    F & 风王之瞳 & 深蓝 \\
+    G & 神圣的 F2 连接着我们 & 紫色 \\
+    H & 目标是成为数论大师 & 黑色 \\
+    I & 出给 paul-lu 的数数题 & 灰色 \\
+    J & 金色传说 & 黄色 \\
+    K & 多项式求导 & 粉色 \\
+    L & 旅行的意义 & 浅蓝 \\
+    \hline 
+    \end{tabular} \\ 
+    \small \quad\\
+    \small \quad\\
+    \Large 请勿在比赛开始前翻阅试题! \\ 
+    \Large Do not open before the contest has started. \\ 
+    \small \quad\\ 
+    \Large 2019年4月14日
+}
+\date{}
+
+\lstset{breaklines=true, frame=none, extendedchars=false, basicstyle=\ttfamily, showstringspaces=false}
+\setlength{\parindent}{2em}
+\setlength{\parskip}{2.0ex}
+\linespread{1.15}
+\newcommand*{\mat}[1]{\boldsymbol{\mathrm{#1}}}
+\renewcommand*{\vec}[1]{\boldsymbol{\mathrm{#1}}}
+\usepackage{tikz,flowchart}
+\usetikzlibrary{shapes,shapes.geometric,arrows,automata,positioning}
+
+\begin{document}
+\maketitle
+\setcounter{page}{0}
+\thispagestyle{empty}
+\newpage
+% \input Official/blank.tex
+% \newpage
+\input Official/A.tex
+\input Official/B.tex
+\input Official/C.tex
+\input Official/D.tex
+\input Official/E.tex
+\input Official/F.tex
+\input Official/G.tex
+\input Official/H.tex
+\input Official/I.tex
+\input Official/J.tex
+\input Official/K.tex
+\input Official/L.tex
+% \input Official/M.tex
+
+\end{document}

@@ -1,0 +1,39 @@
+\begin{problem}{出给 paul-lu 的数数题}{standard input}{standard output}{6 seconds}{128 megabytes}
+
+    中国科学院大学的著名 JB 选手 bibibibi，想当年还在北理工打算法竞赛时候就是一个全才，号称北京全能王，所有的算法题目里就没有他不能嘴巴 AC 的。这天他听说 Paul(lu) Lu(pao)学长挺会数数的，于是决定出一道数数的题目来考一考他：
+
+    已知在一个 $n\times n$ 的棋盘里，每个格子都可以填上一个范围为 $[1,k]$ 的正整数。定义棋盘中的某个格点是 \textit{bi点}\ 当且仅当满足：
+
+    $\bullet$ 该格点的整数值\textbf{严格大于}本行其他所有格点的整数值。
+
+    $\bullet$ 该格点的整数值\textbf{严格大于}本列其他所有格点的整数值。
+    
+    设 $B_i$ 为棋盘中恰好存在 $i$ 个 \textit{bi点}\ 的方案数，请你计算 $\sum\limits_{i=0}^{n^2} (i^2\cdot B_i) $，答案可能很大，请取模 $998244353$。
+
+    \InputFile
+    
+    第一行输入一个正整数 $T\ (1\le T\le 20)$，表示数据组数。
+
+    接下来 $T$ 组数据，每组数据输入两个正整数 $n$ 和 $k\ (1\le n, k\le 200)$，由空格间隔开，分别表示棋盘的大小和每个格点内可填数的范围上限。
+    
+    \OutputFile
+    
+    对于每组数据，请输出一行，表示计算结果取模 $998244353$ 的答案，注意换行。
+    
+    \Example
+    
+    \begin{example}
+    \exmp{
+        3
+        1 2
+        2 2
+        3 2
+    }{
+        2
+        12
+        216
+    }%
+    \end{example}
+    
+
+\end{problem}
